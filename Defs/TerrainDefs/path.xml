@@ -10,6 +10,9 @@
 		<edgeType>FadeRough</edgeType>
 		<renderPrecedence>350</renderPrecedence>
 		<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+		<filthAcceptanceMask><!-- FloorBase defaults to all -->
+			<li>Unnatural</li>
+		</filthAcceptanceMask>
 		<takeFootprints>true</takeFootprints>
 		<statBases>
 			<Beauty>0</Beauty>
